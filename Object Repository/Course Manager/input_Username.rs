@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_User ID  Email Address_LoginFormusername</name>
+   <name>input_Username</name>
    <tag></tag>
-   <elementGuidId>2eb6ab40-1a96-4455-b36d-04f39d04454f</elementGuidId>
+   <elementGuidId>ab446e19-49e0-49f1-9196-61372bd0cb28</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

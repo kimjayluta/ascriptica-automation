@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Choose                              _822a55</name>
+   <name>select_Choose_822a55</name>
    <tag></tag>
-   <elementGuidId>35f2170d-7b36-43f6-8ad4-eb4ccc3c7d48</elementGuidId>
+   <elementGuidId>2627cd57-0c59-49e2-b4c5-4fd7fd4ba3aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -27,45 +27,29 @@ WebUI.setText(findTestObject('Course Manager/input_Username'), 'jeffdy010203@gma
 
 WebUI.setEncryptedText(findTestObject('Course Manager/input_Password'), 'mpwtaF1AOAT+pVLiPGdxib800znL7mVX')
 
-WebUI.click(findTestObject('Object Repository/Course Manager/button_Login'))
+WebUI.click(findTestObject('Course Manager/button_Login'))
 
 WebUI.click(findTestObject('Course Manager/a_Tools_EXACT'))
 
 WebUI.click(findTestObject('Course Manager/div_Course Manager'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/button_New'), 0)
-
 WebUI.click(findTestObject('Course Manager/button_New'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/a_Next'), 0)
+WebUI.setText(findTestObject('Course Manager/input__txtTitle'), 'COMP-101')
 
-WebUI.click(findTestObject('Object Repository/Course Manager/a_Next'))
+WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choose_822a55'), '12', true)
 
-WebUI.scrollToElement(findTestObject('Course Manager/label_This field is required'), 0)
+WebUI.click(findTestObject('Course Manager/li_Delivery Methods_9b9150'))
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/label_This field is required'))
+WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choose_ed4c48'), '9', true)
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/label_This field is required_1'))
+WebUI.click(findTestObject('Course Manager/a_Next'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Course Manager/label_This field is required_1_2'), 0)
+CustomKeywords.'test.fileUpload.uploadFile'(findTestObject('Course Manager/input_Upload button (Description)'), 'C:\\Users\\Kim\\Downloads\\Test-seller-a3-94750.png')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Course Manager/label_This field is required_1_2'))
+WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Course Manager/input__txtTitle'), 0)
+WebUI.setText(findTestObject('Course Manager/p'), 'This is a test description from Automation.')
 
-WebUI.setText(findTestObject('Object Repository/Course Manager/input__txtTitle'), 'Automation 101')
-
-WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choose_822a55'), 
-    '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a'), 
-    '176', true)
-
-WebUI.scrollToElement(findTestObject('Course Manager/select_Delivery Methods'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.selectOptionByValue(findTestObject('Course Manager/select_Delivery Methods'), '12', true)
-
-WebUI.click(findTestObject('Object Repository/Course Manager/a_Next'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Course Manager/span_Description'))
+WebUI.click(findTestObject('Course Manager/a_Next'))
 

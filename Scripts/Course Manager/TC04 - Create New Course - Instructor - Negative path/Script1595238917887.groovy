@@ -19,53 +19,55 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('http://demos1.stral.in/PGCTechnologyServices/site/login')
 
 WebUI.setText(findTestObject('Course Manager/input_Username'), 'jeffdy010203@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Course Manager/input_Password'), 'mpwtaF1AOAT+pVLiPGdxib800znL7mVX')
 
-WebUI.click(findTestObject('Object Repository/Course Manager/button_Login'))
+WebUI.click(findTestObject('Course Manager/button_Login'))
 
 WebUI.click(findTestObject('Course Manager/a_Tools_EXACT'))
 
 WebUI.click(findTestObject('Course Manager/div_Course Manager'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/button_New'), 0)
-
 WebUI.click(findTestObject('Course Manager/button_New'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/a_Next'), 0)
+WebUI.setText(findTestObject('Course Manager/input__txtTitle'), 'COMP-101')
 
-WebUI.click(findTestObject('Object Repository/Course Manager/a_Next'))
+WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choose_822a55'), '31', true)
 
-WebUI.scrollToElement(findTestObject('Course Manager/label_This field is required'), 0)
+WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choosemy test course'), '194', true)
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/label_This field is required'))
+WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choose_ed4c48'), '11', true)
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/label_This field is required_1'))
+WebUI.click(findTestObject('Course Manager/a_Next'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Course Manager/label_This field is required_1_2'), 0)
+WebUI.click(findTestObject('Course Manager/a_Next'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Course Manager/label_This field is required_1_2'))
+WebUI.click(findTestObject('Course Manager/a_Next'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Course Manager/input__txtTitle'), 0)
+WebUI.click(findTestObject('Course Manager/a_ Add Instructor'))
 
-WebUI.setText(findTestObject('Object Repository/Course Manager/input__txtTitle'), 'Automation 101')
+WebUI.click(findTestObject('Course Manager/button_Submit'))
 
-WebUI.selectOptionByValue(findTestObject('Course Manager/select_Choose_822a55'), 
-    '2', true)
+WebUI.click(findTestObject('Course Manager/label_This field is required'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a'), 
-    '176', true)
+WebUI.click(findTestObject('Course Manager/label_This field is required_1'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/select_Delivery Methods'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Course Manager/input__txtInstructor'), 'test')
 
-WebUI.selectOptionByValue(findTestObject('Course Manager/select_Delivery Methods'), '12', true)
+WebUI.setText(findTestObject('Course Manager/input_Telephone_ins_telephone'), '213123123')
 
-WebUI.click(findTestObject('Object Repository/Course Manager/a_Next'))
+WebUI.setText(findTestObject('Course Manager/input__ins_email'), 'test@gmail.com')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Course Manager/span_Description'))
+WebUI.click(findTestObject('Course Manager/button_BROWSE'))
+
+WebUI.click(findTestObject('Course Manager/li_BROWSE'))
+
+WebUI.click(findTestObject('Course Manager/button_Reset'))
+
+WebUI.click(findTestObject('Course Manager/button_'))
+
+WebUI.closeBrowser()
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_User ID  Email Address_LoginFormusername</name>
+   <name>input_Course Description Link_txtCourseDesc_795d8c</name>
    <tag></tag>
-   <elementGuidId>2eb6ab40-1a96-4455-b36d-04f39d04454f</elementGuidId>
+   <elementGuidId>9cc56b2f-d071-42ac-8a82-3f96104180e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='loginform-username']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,6 +18,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-rule-maxlength</name>
+      <type>Main</type>
+      <value>150</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,55 +38,48 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>loginform-username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
+      <value>txtCourseDescriptionURL</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>LoginForm[username]</value>
+      <value>txtCourseDescriptionURL</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
+      <name>data-msg-url</name>
       <type>Main</type>
-      <value>true</value>
+      <value>Please provide a valid link. Example:http://www.&lt;br/>mytest.com or https://mysubdomain.domain.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginform-username&quot;)</value>
+      <value>id(&quot;txtCourseDescriptionURL&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='loginform-username']</value>
+      <value>//input[@id='txtCourseDescriptionURL']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login-form']/div/div/input</value>
+      <value>//div[@id='mCSB_1_container']/div/ul[3]/li/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
+      <value>//ul[3]/li/input</value>
    </webElementXpaths>
 </WebElementEntity>

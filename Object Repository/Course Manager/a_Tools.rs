@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Tools</name>
    <tag></tag>
-   <elementGuidId>3aa6e0b0-974c-4137-aa89-82ddb25ac4f8</elementGuidId>
+   <elementGuidId>fe69335c-67e9-498e-ad7a-4602bb218eac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
