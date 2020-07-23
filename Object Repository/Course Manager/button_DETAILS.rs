@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Choose                              _ed4c48</name>
+   <name>button_DETAILS</name>
    <tag></tag>
-   <elementGuidId>68644e12-87ae-46f3-bdeb-e19ca8b9b5c0</elementGuidId>
+   <elementGuidId>708e00c7-19bc-48d4-873e-2f8cc1bf5871</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='cboDeliveryMethod']</value>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,21 +17,42 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>cboDeliveryMethod</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>cboDeliveryMethod</value>
+      <value>btn btn_catalogue_details dropdown-toggle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,65 +60,57 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                             Choose..
-                                                                                                aptiris
-                                                                                                Blended Classroom  (Online/Classroom)
-                                                                                                Elluminate Sessions
-                                                                                                GG
-                                                                                                Mentoring/Face-to-Face Meeting
-                                                                                                Online (100% Virtual)
-                                                                                                Online (test)
-                                                                                                Traditional Classroom (Face-to-Face)
-                                                                                                Workshop
-                                                                                           </value>
+                                                            
+                                                            DETAILS
+                                                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cboDeliveryMethod&quot;)</value>
+      <value>id(&quot;dv_cc_catalogue_listing&quot;)/ul[@class=&quot;cc_catalogue&quot;]/li[1]/div[@class=&quot;col-item1&quot;]/div[@class=&quot;item-top clearfix&quot;]/div[@class=&quot;item-desc f-right&quot;]/div[@class=&quot;item-desc-1 clearfix&quot;]/div[@class=&quot;f-right&quot;]/div[@class=&quot;btn-group btn-group-actions&quot;]/button[@class=&quot;btn btn_catalogue_details dropdown-toggle&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='cboDeliveryMethod']</value>
+      <value>//button[@type='button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mCSB_1_container']/div/ul[5]/li/select</value>
+      <value>//div[@id='dv_cc_catalogue_listing']/ul/li/div/div/div[2]/div/div/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DETAILS'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Moodle Shortname'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duplicate'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Canvas Course ID'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MODIFY'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[5]/li/select</value>
+      <value>//div/div[2]/div/div/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

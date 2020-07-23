@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Choose                              _ed4c48</name>
+   <name>label_Follow-up Completion date cannot be e_fd7ed2</name>
    <tag></tag>
-   <elementGuidId>68644e12-87ae-46f3-bdeb-e19ca8b9b5c0</elementGuidId>
+   <elementGuidId>7cb157a9-1ba8-49b9-b5f9-bc738b0f4d4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='cboDeliveryMethod']</value>
+         <value>//label[@id='dtFollowupCompDate-error']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,87 +17,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>cboDeliveryMethod</value>
+      <value>dtFollowupCompDate-error</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>cboDeliveryMethod</value>
+      <value>error</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>dtFollowupCompDate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                             Choose..
-                                                                                                aptiris
-                                                                                                Blended Classroom  (Online/Classroom)
-                                                                                                Elluminate Sessions
-                                                                                                GG
-                                                                                                Mentoring/Face-to-Face Meeting
-                                                                                                Online (100% Virtual)
-                                                                                                Online (test)
-                                                                                                Traditional Classroom (Face-to-Face)
-                                                                                                Workshop
-                                                                                           </value>
+      <value>Follow-up Completion date cannot be earlier than Course end date.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cboDeliveryMethod&quot;)</value>
+      <value>id(&quot;dtFollowupCompDate-error&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='cboDeliveryMethod']</value>
+      <value>//label[@id='dtFollowupCompDate-error']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mCSB_1_container']/div/ul[5]/li/select</value>
+      <value>//div[@id='mCSB_11_container']/div[4]/ul/li/div[2]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluation Completion Date'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Moodle Shortname'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[22]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Canvas Course ID'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enrollment Restrictions'])[2]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Follow-up Completion date cannot be earlier than Course end date.']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[5]/li/select</value>
+      <value>//li/div[2]/label</value>
    </webElementXpaths>
 </WebElementEntity>

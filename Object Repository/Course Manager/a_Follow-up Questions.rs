@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_New</name>
+   <name>a_Follow-up Questions</name>
    <tag></tag>
-   <elementGuidId>3dcb5183-a678-49b7-86bd-2b15d706197f</elementGuidId>
+   <elementGuidId>6af162c1-384e-443e-b998-c268bcd9050a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='new-model']/div[2]/div/ul/li[6]/button</value>
+         <value>//a[contains(text(),'Follow-up Questions')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-href</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>/PGCTechnologyServices/course-manager/create</value>
+      <value>18</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>btn btn-primary new_course</value>
+      <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>New</value>
+      <value>Follow-up Questions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;new-model&quot;)/div[@class=&quot;clearfix&quot;]/div[@class=&quot;a_course_manager_btn f-right margin-top-10px&quot;]/ul[@class=&quot;list-unstyled btn-large f-right&quot;]/li[6]/button[@class=&quot;btn btn-primary new_course&quot;]</value>
+      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_content main_content_normal f-left&quot;]/div[@class=&quot;right-container&quot;]/div[@class=&quot;main-container pos-rel&quot;]/div[@class=&quot;center-cont&quot;]/div[@class=&quot;center-cont&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 bhoechie-tab-container&quot;]/div[@class=&quot;col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu taller-menu&quot;]/div[@class=&quot;list-group&quot;]/div[@class=&quot;list-group-item text-center done&quot;]/small[1]/a[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>//div[@id='new-model']/div[2]/div/ul/li[6]/button</value>
+      <value>//a[contains(text(),'Follow-up Questions')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Survey Questions'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::button[2]</value>
+      <value>//*/text()[normalize-space(.)='Follow-up Questions']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duplicate'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DETAILS'])[1]/preceding::button[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='New']/parent::*</value>
+      <value>(//a[contains(@href, 'javascript:void(0);')])[21]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/ul/li[6]/button</value>
+      <value>//div[4]/small/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

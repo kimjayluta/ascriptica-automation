@@ -3,7 +3,7 @@
    <description></description>
    <name>select_ChooseBlended Learning (OnlineFace-t_17004a</name>
    <tag></tag>
-   <elementGuidId>96606372-bfb9-4bb4-8edd-96405e918c8c</elementGuidId>
+   <elementGuidId>d472d7f9-1839-435a-bb08-5fff8ea0d27c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

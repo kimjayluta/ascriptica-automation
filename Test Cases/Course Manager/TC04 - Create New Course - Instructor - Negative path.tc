@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04 - Create New Course - Instructor - Negative path</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c74ad77f-50c3-45f8-8ee0-f41d324e1523</testCaseGuid>
-</TestCaseEntity>

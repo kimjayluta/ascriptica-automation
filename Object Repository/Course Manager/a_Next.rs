@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Next</name>
    <tag></tag>
-   <elementGuidId>5477723f-7214-480f-8215-93d214db2eac</elementGuidId>
+   <elementGuidId>75e7918e-4bcc-484f-8f27-ca63bd43896e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Questions'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Questions'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

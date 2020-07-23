@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Course Manager</name>
+   <name>div_31</name>
    <tag></tag>
-   <elementGuidId>eda9bec2-1108-4cb0-9c67-face4eee36ce</elementGuidId>
+   <elementGuidId>59079c02-af7c-4061-9e38-5d87a10fae39</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='collapseOne']/div/div/div/div/div/a/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[5]/following::div[34]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,62 +20,52 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>a_manage_template a_course_item f-left</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                                
-                                                Course Manager
-                                            </value>
+      <value>31</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;collapseOne&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;clearfix&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-lg-12 col-xs-12&quot;]/div[@class=&quot;col-sm-12 col-md-3 col-lg-3 col-xs-12&quot;]/a[1]/div[@class=&quot;a_manage_template a_course_item f-left&quot;]</value>
+      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/div[@class=&quot;xdsoft_datetimepicker xdsoft_noselect xdsoft_&quot;]/div[@class=&quot;xdsoft_datepicker active&quot;]/div[@class=&quot;xdsoft_calendar&quot;]/table[1]/tbody[1]/tr[5]/td[@class=&quot;xdsoft_date xdsoft_day_of_week5 xdsoft_date xdsoft_current&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='collapseOne']/div/div/div/div/div/a/div</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[5]/following::div[34]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tools'])[3]/following::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[5]/following::div[34]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tools'])[2]/following::div[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save Selected'])[5]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course Enrollments'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='July'])[9]/preceding::div[151]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/a/div</value>
+      <value>//div[8]/div/div[2]/table/tbody/tr[5]/td[6]/div</value>
    </webElementXpaths>
 </WebElementEntity>
