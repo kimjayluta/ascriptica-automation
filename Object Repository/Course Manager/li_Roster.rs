@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_MODIFY</name>
+   <name>li_Roster</name>
    <tag></tag>
-   <elementGuidId>a6600990-0a21-4b30-8672-ecfaaceae3e7</elementGuidId>
+   <elementGuidId>a52a5c9b-7fb2-4b85-83cb-ae7c1d09ed9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dv_cc_catalogue_listing']/ul/li/div/div/div[2]/div/div/div[2]/ul/li/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Course Enrollment'])[1]/following::li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-href</name>
-      <type>Main</type>
-      <value>/PGCTechnologyServices/course-manager/update?class_id=3293</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>modify_class</value>
+      <value>active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>MODIFY</value>
+      <value>Roster</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dv_cc_catalogue_listing&quot;)/ul[@class=&quot;cc_catalogue&quot;]/li[1]/div[@class=&quot;col-item1 active&quot;]/div[@class=&quot;item-top clearfix&quot;]/div[@class=&quot;item-desc f-right&quot;]/div[@class=&quot;item-desc-1 clearfix&quot;]/div[@class=&quot;f-right&quot;]/div[@class=&quot;btn-group btn-group-actions open&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-right&quot;]/li[1]/a[@class=&quot;modify_class&quot;]</value>
+      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_content main_content_normal f-left&quot;]/div[@class=&quot;right-container&quot;]/div[@class=&quot;main-container pos-rel&quot;]/div[@class=&quot;center-cont&quot;]/div[@class=&quot;course-cont&quot;]/div[@class=&quot;course-inner-cont course-manager&quot;]/ul[@class=&quot;breadcrumb&quot;]/li[@class=&quot;active&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='dv_cc_catalogue_listing']/ul/li/div/div/div[2]/div/div/div[2]/ul/li/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'MODIFY')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course Enrollment'])[1]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DETAILS'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tools'])[2]/following::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DETAILS'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Georgia TAPP Program 2020 VIII'])[1]/preceding::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='APPROVE'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AVAILABLE SEATS'])[1]/preceding::li[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DENY'])[2]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='MODIFY']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Roster']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[2]/ul/li/a</value>
+      <value>//div[3]/div/ul/li[3]</value>
    </webElementXpaths>
 </WebElementEntity>

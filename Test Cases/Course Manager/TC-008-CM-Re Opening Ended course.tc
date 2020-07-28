@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-006-CM</name>
+   <name>TC-008-CM-Re Opening Ended course</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>82aaab2d-3720-49b3-ba10-ddd0e9b6a1bf</testCaseGuid>
+   <testCaseGuid>544c96c2-0a84-4ebc-aeb1-86434ece6c21</testCaseGuid>
 </TestCaseEntity>

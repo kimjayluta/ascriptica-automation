@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-009-CM-Creating Course without payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df9f6133-f87a-4ba6-8e29-d083c81bb5a1</testCaseGuid>
+</TestCaseEntity>
