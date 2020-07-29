@@ -33,7 +33,9 @@ WebUI.click(findTestObject('Course Manager/a_Tools'))
 
 WebUI.doubleClick(findTestObject('Course Manager/div_Course Manager'))
 
-WebUI.click(findTestObject('Object Repository/Course Manager/input_Duplicate_classes'))
+WebUI.scrollToElement(findTestObject('Course Manager/input_Duplicate_classes (EXACT)'), 0)
+
+WebUI.click(findTestObject('Course Manager/input_Duplicate_classes (EXACT)'))
 
 WebUI.click(findTestObject('Object Repository/Course Manager/button_Duplicate'))
 

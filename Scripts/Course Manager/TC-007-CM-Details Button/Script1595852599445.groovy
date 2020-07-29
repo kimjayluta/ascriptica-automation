@@ -95,8 +95,6 @@ WebUI.click(findTestObject('Course Manager/button_DETAILS'))
 
 WebUI.click(findTestObject('Course Manager/a_ENROLLMENT'))
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/li_Roster'))
-
 WebUI.click(findTestObject('Course Manager/a_Course Manager'))
 
 WebUI.click(findTestObject('Course Manager/button_DETAILS'))

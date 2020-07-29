@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__generate_end_date</name>
+   <name>input_Remove Limit After_dtExpiryDate</name>
    <tag></tag>
-   <elementGuidId>77ba634a-244d-4b32-9b85-f8fdba69af63</elementGuidId>
+   <elementGuidId>80de89b3-b012-44b4-af51-161e1b078ac8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='generate_end_date']</value>
+         <value>//input[@id='dtExpiryDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,64 +22,50 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>generate_end_date</value>
+      <value>dtExpiryDate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>generate_end_date</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>fld_shedule valid</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-invalid</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>dtExpiryDate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;generate_end_date&quot;)</value>
+      <value>id(&quot;dtExpiryDate&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='generate_end_date']</value>
+      <value>//input[@id='dtExpiryDate']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mCSB_10_container']/div/ul/li[2]/div/input</value>
+      <value>//form[@id='frm_restriction_add']/div/div[3]/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[10]/form/div/div/div/div/ul/li[2]/div/input</value>
+      <value>//div[3]/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

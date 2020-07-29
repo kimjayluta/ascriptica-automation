@@ -55,7 +55,11 @@ WebUI.verifyElementVisible(findTestObject('Course Manager/p_Updating course  Geo
 
 WebUI.click(findTestObject('Course Manager/a_Deadlines'))
 
-WebUI.click(findTestObject('Course Manager/input_Evaluation Completion Date'))
+if (findTestObject('Course Manager/label_Follow-up Completion date cannot be e_fd7ed2')) {
+	WebUI.click(findTestObject('Course Manager/input_Evaluation Completion Date'))
+} else {
+	WebUI.click(findTestObject('Course Manager/label_Follow-up Completion date cannot be e_fd7ed2'))
+}
 
 WebUI.click(findTestObject('Course Manager/button_December_xdsoft_next'))
 
