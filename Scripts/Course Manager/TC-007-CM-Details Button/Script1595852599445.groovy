@@ -105,7 +105,7 @@ WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Course Manager/textarea_Reason For Cancel_reason_cancel'), 'This is a test')
 
-WebUI.click(findTestObject('Course Manager/button_Submit'))
+WebUI.click(findTestObject('Course Manager/button_Submit_Cancel'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Course Manager/p_Cancelled'), 0)
 

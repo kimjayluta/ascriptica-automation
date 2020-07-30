@@ -33,59 +33,29 @@ WebUI.click(findTestObject('Course Manager/a_Tools'))
 
 WebUI.click(findTestObject('Course Manager/div_Course Manager'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/button_DETAILS'), 0)
+WebUI.click(findTestObject('Course Manager/button_New'))
 
-WebUI.click(findTestObject('Course Manager/button_DETAILS'))
+WebUI.click(findTestObject('Course Manager/select_Category'))
 
-WebUI.click(findTestObject('Course Manager/a_MODIFY'))
-
-WebUI.click(findTestObject('Course Manager/a_Schedule'))
-
-WebUI.click(findTestObject('Course Manager/input__generate_start_date'))
-
-WebUI.click(findTestObject('Course Manager/div_29'))
-
-WebUI.click(findTestObject('Course Manager/input__generate_end_date'))
-
-WebUI.click(findTestObject('Course Manager/div_1'))
-
-WebUI.click(findTestObject('Course Manager/button_Schedule'))
-
-WebUI.verifyElementVisible(findTestObject('Course Manager/p_Updating course  Georgia TAPP Program 202_e049af'))
-
-WebUI.click(findTestObject('Course Manager/a_Deadlines'))
-
-if (findTestObject('Course Manager/label_Follow-up Completion date cannot be e_fd7ed2')) {
-    WebUI.click(findTestObject('Course Manager/input_Evaluation Completion Date'))
-} else {
-    WebUI.click(findTestObject('Course Manager/label_Follow-up Completion date cannot be e_fd7ed2'))
-}
-
-WebUI.click(findTestObject('Course Manager/button_Completion Date'))
-
-WebUI.click(findTestObject('Course Manager/div_2'))
-
-WebUI.click(findTestObject('Course Manager/a_Follow-up Questions'))
-
-WebUI.click(findTestObject('Course Manager/a_Finish'))
-
-WebUI.verifyElementVisible(findTestObject('Course Manager/ul_Course updated successfully'))
+WebUI.verifyElementVisible(findTestObject('Course Manager/option_Learning Plan'))
 
 WebUI.click(findTestObject('Course Manager/a_Course Manager'))
 
 WebUI.click(findTestObject('Course Manager/a_Tools'))
 
-WebUI.click(findTestObject('Course Manager/div_Course Enrollments'))
+WebUI.click(findTestObject('Course Manager/div_Manage Categories'))
 
-WebUI.click(findTestObject('Course Manager/a_Open Roster'))
+WebUI.click(findTestObject('Course Manager/a_Unlimited_update_traning editstudent btn _a4b332'))
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/li_Roster'))
+WebUI.click(findTestObject('Course Manager/div_ActiveInactive'))
+
+WebUI.click(findTestObject('Course Manager/input_Delete_save_category'))
 
 WebUI.click(findTestObject('Course Manager/a_Tools'))
 
 WebUI.click(findTestObject('Course Manager/div_Course Manager'))
 
-WebUI.scrollToElement(findTestObject('Course Manager/p_Open'), 0)
+WebUI.click(findTestObject('Course Manager/button_New'))
 
-WebUI.verifyElementVisible(findTestObject('Course Manager/p_Open'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Course Manager/select_Category'))
 

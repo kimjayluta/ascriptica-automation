@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Course Manager</name>
+   <name>a_Unlimited_update_traning editstudent btn _a4b332</name>
    <tag></tag>
-   <elementGuidId>376bfa4d-8184-499f-a043-3c366920cdc3</elementGuidId>
+   <elementGuidId>c6ce0c58-d950-4f84-a7f0-9f6e08dc47ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Course Manager')]</value>
+         <value>//a[@onclick='UpdateCategory(31);']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,85 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>title</name>
       <type>Main</type>
-      <value>/PGCTechnologyServices/course-manager/coursegrid</value>
+      <value>Update</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>Course Manager</value>
+      <value>UpdateCategory(31);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>update_traning editstudent btn btn-info btn-sm </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>Update</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_content main_content_normal f-left&quot;]/div[@class=&quot;right-container&quot;]/div[@class=&quot;main-container pos-rel&quot;]/div[@class=&quot;center-cont&quot;]/ul[@class=&quot;breadcrumb&quot;]/li[2]/b[1]/a[1]</value>
+      <value>id(&quot;new-model&quot;)/div[@class=&quot;center-cont&quot;]/div[@class=&quot;country-index&quot;]/div[@class=&quot;wrapper_ clearfix&quot;]/div[@class=&quot;main_content main_content_normal f-left&quot;]/div[@class=&quot;right-container&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;center-cont&quot;]/div[@class=&quot;catalogue_table_holder&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-curved&quot;]/tbody[@class=&quot;table_body&quot;]/tr[2]/td[7]/a[@class=&quot;update_traning editstudent btn btn-info btn-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Course Manager')]</value>
+      <value>//a[@onclick='UpdateCategory(31);']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='new-model']/div/div/div[2]/div/div/div/div/div[2]/div/table/tbody/tr[2]/td[7]/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unlimited'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='District : learning plan'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Course'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='District : Technology Services'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Course Request'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Course Manager']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/PGCTechnologyServices/course-manager/coursegrid')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='District: GAVS'])[1]/preceding::a[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/b/a</value>
+      <value>//tr[2]/td[7]/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>
