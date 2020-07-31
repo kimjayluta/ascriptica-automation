@@ -16,22 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('http://demos1.stral.in/PGCTechnologyServices/site/login')
-
-WebUI.setText(findTestObject('Course Manager/input_User ID (EXACT)'), 'jeffdy010203@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Course Manager/input_Password (EXACT)'), 'mpwtaF1AOAT+pVLiPGdxib800znL7mVX')
-
-WebUI.click(findTestObject('Course Manager/button_Login'))
-
-WebUI.click(findTestObject('Course Manager/a_Tools'))
-
-WebUI.click(findTestObject('Course Manager/div_Course Manager'))
-
 WebUI.click(findTestObject('Course Manager/button_New'))
 
 WebUI.setText(findTestObject('Course Manager/input__txtTitle'), 'Comp-101')

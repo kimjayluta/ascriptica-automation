@@ -17,18 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('http://demos1.stral.in/PGCTechnologyServices/site/login')
-
-WebUI.setText(findTestObject('Course Manager/input_User ID (EXACT)'), 'jeffdy010203@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Course Manager/input_Password (EXACT)'), 'mpwtaF1AOAT+pVLiPGdxib800znL7mVX')
-
-WebUI.click(findTestObject('Course Manager/button_Login'))
-
 WebUI.click(findTestObject('Course Manager/a_Tools'))
 
 WebUI.doubleClick(findTestObject('Course Manager/div_Course Manager'))
@@ -47,7 +35,7 @@ WebUI.click(findTestObject('Course Manager/a_Deadlines'))
 
 WebUI.click(findTestObject('Course Manager/input_Evaluation Completion'))
 
-WebUI.click(findTestObject('Course Manager/div_31'))
+WebUI.click(findTestObject('Course Manager/div_31 (August)'))
 
 WebUI.click(findTestObject('Course Manager/a_Next'))
 
