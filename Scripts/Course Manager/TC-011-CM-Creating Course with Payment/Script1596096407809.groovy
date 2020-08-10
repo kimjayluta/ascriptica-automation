@@ -89,8 +89,6 @@ WebUI.scrollToElement(findTestObject('Course Manager/input_Seats Expire On_DTRsv
 
 WebUI.click(findTestObject('Course Manager/input_Seats Expire On_DTRsvSeat'))
 
-WebUI.click(findTestObject('Course Manager/button_December_xdsoft_next (Limits)'))
-
 WebUI.click(findTestObject('Course Manager/div_31 (Expiry Date)'))
 
 WebUI.click(findTestObject('Course Manager/a_Next'))

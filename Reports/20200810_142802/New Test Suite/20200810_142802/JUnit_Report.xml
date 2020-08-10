@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="83.608" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="83.608" timestamp="2020-08-10 14:28:05" hostname="Kim - DESKTOP-604KTOQ" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kim\\git\\Ascriptica\\Reports\\20200810_142802\\New Test Suite\\20200810_142802"/>
+         <property name="logFiles" value="C:\\Users\\Kim\\git\\Ascriptica\\Reports\\20200810_142802\\New Test Suite\\20200810_142802\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kim - DESKTOP-604KTOQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 84.0.4147.105"/>
+         <property name="hostAddress" value="172.17.0.79"/>
+         <property name="sessionId" value="60a0a7fef188b74b8ed860c1f24b123e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC00 - Login" time="20.931" classname="Test Cases/Login/TC00 - Login" status="PASSED">
+         <system-out><![CDATA[2020-08-10 14:28:05 - [TEST_CASE][PASSED] - Test Cases/Login/TC00 - Login: Test Cases/Login/TC00 - Login
+
+2020-08-10 14:28:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-10 14:28:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-10 14:28:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-10 14:28:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-10 14:28:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-10 14:28:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-10 14:28:13 - [TEST_STEP][PASSED] - navigateToUrl("http://demos1.stral.in/PGCTechnologyServices/site/login"): Navigate to 'http://demos1.stral.in/PGCTechnologyServices/site/login' successfully
+
+2020-08-10 14:28:16 - [MESSAGE][PASSED] - Navigate to 'http://demos1.stral.in/PGCTechnologyServices/site/login' successfully
+
+2020-08-10 14:28:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_User ID  Email Address_LoginFormusername"), "jeffdy010203@gmail.com"): Text 'jeffdy010203@gmail.com' is set on object 'Object Repository/Login/input_User ID  Email Address_LoginFormusername'
+
+2020-08-10 14:28:17 - [MESSAGE][PASSED] - Text 'jeffdy010203@gmail.com' is set on object 'Object Repository/Login/input_User ID  Email Address_LoginFormusername'
+
+2020-08-10 14:28:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Password_LoginFormpassword"), "mpwtaF1AOAT+pVLiPGdxib800znL7mVX"): Text ****** has been set on object 'Object Repository/Login/input_Password_LoginFormpassword'
+
+2020-08-10 14:28:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_LoginFormpassword'
+
+2020-08-10 14:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-08-10 14:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-08-10 14:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Tools")): Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-10 14:28:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-10 14:28:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Course Manager/div_Course Manager")): Object: 'Object Repository/Course Manager/div_Course Manager' is double clicked on
+
+2020-08-10 14:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_Course Manager' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-007-CM-Details Button" time="60.962" classname="Test Cases/Course Manager/TC-007-CM-Details Button" status="PASSED">
+         <system-out><![CDATA[2020-08-10 14:28:26 - [TEST_CASE][PASSED] - Test Cases/Course Manager/TC-007-CM-Details Button: Test Cases/Course Manager/TC-007-CM-Details Button
+
+2020-08-10 14:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_MODIFY")): Object: 'Object Repository/Course Manager/a_MODIFY' is clicked on
+
+2020-08-10 14:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_MODIFY' is clicked on
+
+2020-08-10 14:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Deadlines")): Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-10 14:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-10 14:28:34 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Evaluation Completion")): Object: 'Object Repository/Course Manager/input_Evaluation Completion' is clicked on
+
+2020-08-10 14:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Evaluation Completion' is clicked on
+
+2020-08-10 14:28:36 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_31 (August)")): Object: 'Object Repository/Course Manager/div_31 (August)' is clicked on
+
+2020-08-10 14:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_31 (August)' is clicked on
+
+2020-08-10 14:28:36 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Follow-up Questions")): Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-10 14:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-10 14:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Finish")): Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-10 14:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-10 14:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-10 14:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-10 14:28:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/button_DETAILS"), 0): Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-10 14:28:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-10 14:28:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-10 14:28:47 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:47 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_DENY")): Object: 'Object Repository/Course Manager/a_DENY' is clicked on
+
+2020-08-10 14:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_DENY' is clicked on
+
+2020-08-10 14:28:48 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-10 14:28:48 - [MESSAGE][PASSED] - Alert accepted
+
+2020-08-10 14:28:48 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/textarea_Reason For Decline_reason"), "This is a Test"): Text 'This is a Test' is set on object 'Object Repository/Course Manager/textarea_Reason For Decline_reason'
+
+2020-08-10 14:28:49 - [MESSAGE][PASSED] - Text 'This is a Test' is set on object 'Object Repository/Course Manager/textarea_Reason For Decline_reason'
+
+2020-08-10 14:28:49 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Submit (Deny)")): Object: 'Object Repository/Course Manager/button_Submit (Deny)' is clicked on
+
+2020-08-10 14:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Submit (Deny)' is clicked on
+
+2020-08-10 14:28:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/p_Declined"), 0): Scroll to object 'Object Repository/Course Manager/p_Declined' successfully
+
+2020-08-10 14:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-10 14:28:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/p_Declined' successfully
+
+2020-08-10 14:28:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Course Manager/p_Declined")): Object 'Object Repository/Course Manager/p_Declined' is visible
+
+2020-08-10 14:28:51 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/p_Declined' is visible
+
+2020-08-10 14:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:52 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_APPROVE")): Object: 'Object Repository/Course Manager/a_APPROVE' is clicked on
+
+2020-08-10 14:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_APPROVE' is clicked on
+
+2020-08-10 14:28:52 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-10 14:28:52 - [MESSAGE][PASSED] - Alert accepted
+
+2020-08-10 14:28:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/a_Tools"), 0): Scroll to object 'Object Repository/Course Manager/a_Tools' successfully
+
+2020-08-10 14:28:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-10 14:28:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/a_Tools' successfully
+
+2020-08-10 14:28:53 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Tools")): Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-10 14:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-10 14:28:56 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_Course Manager")): Object: 'Object Repository/Course Manager/div_Course Manager' is clicked on
+
+2020-08-10 14:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_Course Manager' is clicked on
+
+2020-08-10 14:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_DUPLICATE")): Object: 'Object Repository/Course Manager/a_DUPLICATE' is clicked on
+
+2020-08-10 14:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_DUPLICATE' is clicked on
+
+2020-08-10 14:29:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Course Manager/select_Choose                              _822a55"), "2", true): All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-10 14:29:07 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-10 14:29:07 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Follow-up Questions")): Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-10 14:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-10 14:29:08 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Finish")): Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-10 14:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-10 14:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-10 14:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-10 14:29:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/button_DETAILS"), 0): Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-10 14:29:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-10 14:29:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-10 14:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_ENROLLMENT")): Object: 'Object Repository/Course Manager/a_ENROLLMENT' is clicked on
+
+2020-08-10 14:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_ENROLLMENT' is clicked on
+
+2020-08-10 14:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-10 14:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-10 14:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_CANCEL")): Object: 'Object Repository/Course Manager/a_CANCEL' is clicked on
+
+2020-08-10 14:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_CANCEL' is clicked on
+
+2020-08-10 14:29:23 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-10 14:29:23 - [MESSAGE][PASSED] - Alert accepted
+
+2020-08-10 14:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/textarea_Reason For Cancel_reason_cancel"), "This is a test"): Text 'This is a test' is set on object 'Object Repository/Course Manager/textarea_Reason For Cancel_reason_cancel'
+
+2020-08-10 14:29:24 - [MESSAGE][PASSED] - Text 'This is a test' is set on object 'Object Repository/Course Manager/textarea_Reason For Cancel_reason_cancel'
+
+2020-08-10 14:29:24 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Submit_Cancel")): Object: 'Object Repository/Course Manager/button_Submit_Cancel' is clicked on
+
+2020-08-10 14:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Submit_Cancel' is clicked on
+
+2020-08-10 14:29:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Course Manager/p_Cancelled"), 0): Scroll to object 'Object Repository/Course Manager/p_Cancelled' successfully
+
+2020-08-10 14:29:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-10 14:29:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/p_Cancelled' successfully
+
+2020-08-10 14:29:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Course Manager/p_Cancelled")): Object 'Object Repository/Course Manager/p_Cancelled' is visible
+
+2020-08-10 14:29:27 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/p_Cancelled' is visible
+
+2020-08-10 14:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-10 14:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_DELETE")): Object: 'Object Repository/Course Manager/a_DELETE' is clicked on
+
+2020-08-10 14:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_DELETE' is clicked on
+
+2020-08-10 14:29:27 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-10 14:29:27 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-10 14:28:05 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Course Manager/TC-007-CM-Details Button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

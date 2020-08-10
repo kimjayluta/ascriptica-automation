@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Course Manager" time="354.79" tests="7" failures="3" errors="0">
+   <testsuite name="Course Manager" tests="7" failures="3" errors="0" time="354.79" timestamp="2020-08-04 13:26:31" hostname="Kim - DESKTOP-604KTOQ" id="Test Suites/Course Manager">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628"/>
+         <property name="logFiles" value="C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\1596519050525.png, C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\1596519097769.png, C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\1596519144754.png"/>
+         <property name="hostName" value="Kim - DESKTOP-604KTOQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 84.0.4147.105"/>
+         <property name="hostAddress" value="192.168.254.106"/>
+         <property name="sessionId" value="730e6ce4d72e3d77e7466e47dc984716"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC00 - Login" time="18.676" classname="Test Cases/Login/TC00 - Login" status="PASSED">
+         <system-out><![CDATA[2020-08-04 13:26:32 - [TEST_CASE][PASSED] - Test Cases/Login/TC00 - Login: Test Cases/Login/TC00 - Login
+
+2020-08-04 13:26:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-04 13:26:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-04 13:26:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-04 13:26:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-04 13:26:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-04 13:26:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-04 13:26:39 - [TEST_STEP][PASSED] - navigateToUrl("http://demos1.stral.in/PGCTechnologyServices/site/login"): Navigate to 'http://demos1.stral.in/PGCTechnologyServices/site/login' successfully
+
+2020-08-04 13:26:48 - [MESSAGE][PASSED] - Navigate to 'http://demos1.stral.in/PGCTechnologyServices/site/login' successfully
+
+2020-08-04 13:26:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_User ID  Email Address_LoginFormusername"), "jeffdy010203@gmail.com"): Text 'jeffdy010203@gmail.com' is set on object 'Object Repository/Login/input_User ID  Email Address_LoginFormusername'
+
+2020-08-04 13:26:49 - [MESSAGE][PASSED] - Text 'jeffdy010203@gmail.com' is set on object 'Object Repository/Login/input_User ID  Email Address_LoginFormusername'
+
+2020-08-04 13:26:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Password_LoginFormpassword"), "mpwtaF1AOAT+pVLiPGdxib800znL7mVX"): Text ****** has been set on object 'Object Repository/Login/input_Password_LoginFormpassword'
+
+2020-08-04 13:26:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_LoginFormpassword'
+
+2020-08-04 13:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-08-04 13:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-006-CM-Duplicate button" time="42.17" classname="Test Cases/Course Manager/TC-006-CM-Duplicate button" status="PASSED">
+         <system-out><![CDATA[2020-08-04 13:26:50 - [TEST_CASE][PASSED] - Test Cases/Course Manager/TC-006-CM-Duplicate button: Test Cases/Course Manager/TC-006-CM-Duplicate button
+
+2020-08-04 13:26:51 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Tools")): Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:27:03 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Course Manager/div_Course Manager")): Object: 'Object Repository/Course Manager/div_Course Manager' is double clicked on
+
+2020-08-04 13:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_Course Manager' is double clicked on
+
+2020-08-04 13:27:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/input_Duplicate_classes (EXACT)"), 0): Scroll to object 'Object Repository/Course Manager/input_Duplicate_classes (EXACT)' successfully
+
+2020-08-04 13:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:27:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/input_Duplicate_classes (EXACT)' successfully
+
+2020-08-04 13:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Duplicate_classes (EXACT)")): Object: 'Object Repository/Course Manager/input_Duplicate_classes (EXACT)' is clicked on
+
+2020-08-04 13:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Duplicate_classes (EXACT)' is clicked on
+
+2020-08-04 13:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Course Manager/button_Duplicate")): Object: 'Object Repository/Course Manager/button_Duplicate' is clicked on
+
+2020-08-04 13:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Duplicate' is clicked on
+
+2020-08-04 13:27:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Course Manager/select_Choose                              _822a55"), "2", true): All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-04 13:27:15 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-04 13:27:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a"), "175", true): All options with value '175' are selected in object 'Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a'  using regular expression
+
+2020-08-04 13:27:17 - [MESSAGE][PASSED] - All options with value '175' are selected in object 'Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a'  using regular expression
+
+2020-08-04 13:27:17 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Deadlines")): Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-04 13:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-04 13:27:18 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Evaluation Completion")): Object: 'Object Repository/Course Manager/input_Evaluation Completion' is clicked on
+
+2020-08-04 13:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Evaluation Completion' is clicked on
+
+2020-08-04 13:27:20 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_31 (August)")): Object: 'Object Repository/Course Manager/div_31 (August)' is clicked on
+
+2020-08-04 13:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_31 (August)' is clicked on
+
+2020-08-04 13:27:21 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Follow-up Questions")): Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Finish")): Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:27:25 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-007-CM-Details Button" time="66.454" classname="Test Cases/Course Manager/TC-007-CM-Details Button" status="PASSED">
+         <system-out><![CDATA[2020-08-04 13:27:32 - [TEST_CASE][PASSED] - Test Cases/Course Manager/TC-007-CM-Details Button: Test Cases/Course Manager/TC-007-CM-Details Button
+
+2020-08-04 13:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_MODIFY")): Object: 'Object Repository/Course Manager/a_MODIFY' is clicked on
+
+2020-08-04 13:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_MODIFY' is clicked on
+
+2020-08-04 13:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Deadlines")): Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-04 13:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-04 13:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Evaluation Completion")): Object: 'Object Repository/Course Manager/input_Evaluation Completion' is clicked on
+
+2020-08-04 13:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Evaluation Completion' is clicked on
+
+2020-08-04 13:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_31 (August)")): Object: 'Object Repository/Course Manager/div_31 (August)' is clicked on
+
+2020-08-04 13:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_31 (August)' is clicked on
+
+2020-08-04 13:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Follow-up Questions")): Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Finish")): Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:27:43 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:27:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/button_DETAILS"), 0): Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-04 13:27:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:27:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-04 13:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:27:53 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_DENY")): Object: 'Object Repository/Course Manager/a_DENY' is clicked on
+
+2020-08-04 13:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_DENY' is clicked on
+
+2020-08-04 13:27:53 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-04 13:27:53 - [MESSAGE][PASSED] - Alert accepted
+
+2020-08-04 13:27:53 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/textarea_Reason For Decline_reason"), "This is a Test"): Text 'This is a Test' is set on object 'Object Repository/Course Manager/textarea_Reason For Decline_reason'
+
+2020-08-04 13:27:54 - [MESSAGE][PASSED] - Text 'This is a Test' is set on object 'Object Repository/Course Manager/textarea_Reason For Decline_reason'
+
+2020-08-04 13:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Submit (Deny)")): Object: 'Object Repository/Course Manager/button_Submit (Deny)' is clicked on
+
+2020-08-04 13:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Submit (Deny)' is clicked on
+
+2020-08-04 13:27:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/p_Declined"), 0): Scroll to object 'Object Repository/Course Manager/p_Declined' successfully
+
+2020-08-04 13:27:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:27:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/p_Declined' successfully
+
+2020-08-04 13:27:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Course Manager/p_Declined")): Object 'Object Repository/Course Manager/p_Declined' is visible
+
+2020-08-04 13:27:56 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/p_Declined' is visible
+
+2020-08-04 13:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:27:57 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_APPROVE")): Object: 'Object Repository/Course Manager/a_APPROVE' is clicked on
+
+2020-08-04 13:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_APPROVE' is clicked on
+
+2020-08-04 13:27:57 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-04 13:27:57 - [MESSAGE][PASSED] - Alert accepted
+
+2020-08-04 13:27:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/a_Tools"), 0): Scroll to object 'Object Repository/Course Manager/a_Tools' successfully
+
+2020-08-04 13:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:27:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/a_Tools' successfully
+
+2020-08-04 13:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Tools")): Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:28:01 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_Course Manager")): Object: 'Object Repository/Course Manager/div_Course Manager' is clicked on
+
+2020-08-04 13:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_Course Manager' is clicked on
+
+2020-08-04 13:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_DUPLICATE")): Object: 'Object Repository/Course Manager/a_DUPLICATE' is clicked on
+
+2020-08-04 13:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_DUPLICATE' is clicked on
+
+2020-08-04 13:28:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Course Manager/select_Choose                              _822a55"), "2", true): All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-04 13:28:10 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-04 13:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Follow-up Questions")): Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:28:11 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Finish")): Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:28:12 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:28:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/button_DETAILS"), 0): Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-04 13:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:28:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-04 13:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_ENROLLMENT")): Object: 'Object Repository/Course Manager/a_ENROLLMENT' is clicked on
+
+2020-08-04 13:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_ENROLLMENT' is clicked on
+
+2020-08-04 13:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_CANCEL")): Object: 'Object Repository/Course Manager/a_CANCEL' is clicked on
+
+2020-08-04 13:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_CANCEL' is clicked on
+
+2020-08-04 13:28:34 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-04 13:28:34 - [MESSAGE][PASSED] - Alert accepted
+
+2020-08-04 13:28:34 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/textarea_Reason For Cancel_reason_cancel"), "This is a test"): Text 'This is a test' is set on object 'Object Repository/Course Manager/textarea_Reason For Cancel_reason_cancel'
+
+2020-08-04 13:28:35 - [MESSAGE][PASSED] - Text 'This is a test' is set on object 'Object Repository/Course Manager/textarea_Reason For Cancel_reason_cancel'
+
+2020-08-04 13:28:35 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Submit_Cancel")): Object: 'Object Repository/Course Manager/button_Submit_Cancel' is clicked on
+
+2020-08-04 13:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Submit_Cancel' is clicked on
+
+2020-08-04 13:28:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Course Manager/p_Cancelled"), 0): Scroll to object 'Object Repository/Course Manager/p_Cancelled' successfully
+
+2020-08-04 13:28:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:28:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/p_Cancelled' successfully
+
+2020-08-04 13:28:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Course Manager/p_Cancelled")): Object 'Object Repository/Course Manager/p_Cancelled' is visible
+
+2020-08-04 13:28:37 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/p_Cancelled' is visible
+
+2020-08-04 13:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_DELETE")): Object: 'Object Repository/Course Manager/a_DELETE' is clicked on
+
+2020-08-04 13:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_DELETE' is clicked on
+
+2020-08-04 13:28:39 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2020-08-04 13:28:39 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-008-CM-Re Opening Ended course" time="73.716" classname="Test Cases/Course Manager/TC-008-CM-Re Opening Ended course" status="PASSED">
+         <system-out><![CDATA[2020-08-04 13:28:39 - [TEST_CASE][PASSED] - Test Cases/Course Manager/TC-008-CM-Re Opening Ended course: Test Cases/Course Manager/TC-008-CM-Re Opening Ended course
+
+2020-08-04 13:28:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/button_DETAILS"), 0): Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-04 13:28:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:28:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/button_DETAILS' successfully
+
+2020-08-04 13:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_DETAILS")): Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_DETAILS' is clicked on
+
+2020-08-04 13:28:42 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_MODIFY")): Object: 'Object Repository/Course Manager/a_MODIFY' is clicked on
+
+2020-08-04 13:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_MODIFY' is clicked on
+
+2020-08-04 13:28:45 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Schedule")): Object: 'Object Repository/Course Manager/a_Schedule' is clicked on
+
+2020-08-04 13:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Schedule' is clicked on
+
+2020-08-04 13:28:47 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input__generate_start_date")): Object: 'Object Repository/Course Manager/input__generate_start_date' is clicked on
+
+2020-08-04 13:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input__generate_start_date' is clicked on
+
+2020-08-04 13:28:50 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_29")): Object: 'Object Repository/Course Manager/div_29' is clicked on
+
+2020-08-04 13:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_29' is clicked on
+
+2020-08-04 13:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input__generate_end_date")): Object: 'Object Repository/Course Manager/input__generate_end_date' is clicked on
+
+2020-08-04 13:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input__generate_end_date' is clicked on
+
+2020-08-04 13:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_1")): Object: 'Object Repository/Course Manager/div_1' is clicked on
+
+2020-08-04 13:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_1' is clicked on
+
+2020-08-04 13:28:52 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Schedule")): Object: 'Object Repository/Course Manager/button_Schedule' is clicked on
+
+2020-08-04 13:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Schedule' is clicked on
+
+2020-08-04 13:28:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Course Manager/p_Updating course  Georgia TAPP Program 202_e049af")): Object 'Object Repository/Course Manager/p_Updating course  Georgia TAPP Program 202_e049af' is visible
+
+2020-08-04 13:28:58 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/p_Updating course  Georgia TAPP Program 202_e049af' is visible
+
+2020-08-04 13:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Deadlines")): Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-04 13:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Deadlines' is clicked on
+
+2020-08-04 13:28:59 - [TEST_STEP][PASSED] - if (findTestObject("Course Manager/label_Follow-up Completion date cannot be e_fd7ed2")): Object: 'Object Repository/Course Manager/input_Evaluation Completion Date' is clicked on
+
+2020-08-04 13:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Evaluation Completion Date")): Object: 'Object Repository/Course Manager/input_Evaluation Completion Date' is clicked on
+
+2020-08-04 13:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Evaluation Completion Date' is clicked on
+
+2020-08-04 13:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Completion Date")): Object: 'Object Repository/Course Manager/button_Completion Date' is clicked on
+
+2020-08-04 13:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Completion Date' is clicked on
+
+2020-08-04 13:29:06 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_2")): Object: 'Object Repository/Course Manager/div_2' is clicked on
+
+2020-08-04 13:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_2' is clicked on
+
+2020-08-04 13:29:07 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Follow-up Questions")): Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Follow-up Questions' is clicked on
+
+2020-08-04 13:29:07 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Finish")): Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Finish' is clicked on
+
+2020-08-04 13:29:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Course Manager/ul_Course updated successfully")): Object 'Object Repository/Course Manager/ul_Course updated successfully' is visible
+
+2020-08-04 13:29:29 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/ul_Course updated successfully' is visible
+
+2020-08-04 13:29:29 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Course Manager")): Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Course Manager' is clicked on
+
+2020-08-04 13:29:32 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Tools")): Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:29:34 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_Course Enrollments")): Object: 'Object Repository/Course Manager/div_Course Enrollments' is clicked on
+
+2020-08-04 13:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_Course Enrollments' is clicked on
+
+2020-08-04 13:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Open Roster")): Object: 'Object Repository/Course Manager/a_Open Roster' is clicked on
+
+2020-08-04 13:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Open Roster' is clicked on
+
+2020-08-04 13:29:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Course Manager/li_Roster")): Object 'Object Repository/Course Manager/li_Roster' is visible
+
+2020-08-04 13:29:43 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/li_Roster' is visible
+
+2020-08-04 13:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Tools")): Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Tools' is clicked on
+
+2020-08-04 13:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/div_Course Manager")): Object: 'Object Repository/Course Manager/div_Course Manager' is clicked on
+
+2020-08-04 13:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/div_Course Manager' is clicked on
+
+2020-08-04 13:29:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/p_Open"), 0): Scroll to object 'Object Repository/Course Manager/p_Open' successfully
+
+2020-08-04 13:29:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:29:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/p_Open' successfully
+
+2020-08-04 13:29:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Course Manager/p_Open"), STOP_ON_FAILURE): Object 'Object Repository/Course Manager/p_Open' is visible
+
+2020-08-04 13:29:53 - [MESSAGE][PASSED] - Object 'Object Repository/Course Manager/p_Open' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-009-CM-Creating Course without payment" time="57.744" classname="Test Cases/Course Manager/TC-009-CM-Creating Course without payment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Course Manager/TC-009-CM-Creating Course without payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-08-04 13:29:53 - [TEST_CASE][FAILED] - Test Cases/Course Manager/TC-009-CM-Creating Course without payment: Test Cases/Course Manager/TC-009-CM-Creating Course without payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-08-04 13:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_New")): Object: 'Object Repository/Course Manager/button_New' is clicked on
+
+2020-08-04 13:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_New' is clicked on
+
+2020-08-04 13:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/input__txtTitle"), "Comp-101"): Text 'Comp-101' is set on object 'Object Repository/Course Manager/input__txtTitle'
+
+2020-08-04 13:29:57 - [MESSAGE][PASSED] - Text 'Comp-101' is set on object 'Object Repository/Course Manager/input__txtTitle'
+
+2020-08-04 13:29:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Course Manager/select_Choose                              _822a55"), "2", true): All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-04 13:29:58 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Course Manager/select_Choose                              _822a55'  using regular expression
+
+2020-08-04 13:29:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a"), "175", true): All options with value '175' are selected in object 'Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a'  using regular expression
+
+2020-08-04 13:30:01 - [MESSAGE][PASSED] - All options with value '175' are selected in object 'Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a'  using regular expression
+
+2020-08-04 13:30:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Course Manager/select_Choose                              _ed4c48"), "11", true): All options with value '11' are selected in object 'Object Repository/Course Manager/select_Choose                              _ed4c48'  using regular expression
+
+2020-08-04 13:30:02 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Course Manager/select_Choose                              _ed4c48'  using regular expression
+
+2020-08-04 13:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-04 13:30:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-04 13:30:05 - [TEST_STEP][PASSED] - test.fileUpload.uploadFile(findTestObject("Course Manager/input_BROWSE_test"), "C:\Users\Kim\Downloads\depositphotos_180736330-stock-illustration-logo-quality-assurance-qa-testing.jpg"): test.fileUpload.uploadFile is PASSED
+
+2020-08-04 13:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_BROWSE_test' is clicked on
+
+2020-08-04 13:30:06 - [MESSAGE][PASSED] - test.fileUpload.uploadFile is PASSED
+
+2020-08-04 13:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/textarea_Course Desciption"), "This is a test description"): Text 'This is a test description' is set on object 'Object Repository/Course Manager/textarea_Course Desciption'
+
+2020-08-04 13:30:07 - [MESSAGE][PASSED] - Text 'This is a test description' is set on object 'Object Repository/Course Manager/textarea_Course Desciption'
+
+2020-08-04 13:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-04 13:30:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-04 13:30:10 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_ Add Instructor")): Object: 'Object Repository/Course Manager/a_ Add Instructor' is clicked on
+
+2020-08-04 13:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_ Add Instructor' is clicked on
+
+2020-08-04 13:30:20 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/input__txtInstructor"), "Lauro E"): Text 'Lauro E' is set on object 'Object Repository/Course Manager/input__txtInstructor'
+
+2020-08-04 13:30:21 - [MESSAGE][PASSED] - Text 'Lauro E' is set on object 'Object Repository/Course Manager/input__txtInstructor'
+
+2020-08-04 13:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Lauro Eguia")): Object: 'Object Repository/Course Manager/a_Lauro Eguia' is clicked on
+
+2020-08-04 13:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Lauro Eguia' is clicked on
+
+2020-08-04 13:30:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-04 13:30:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-04 13:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Submit")): Object: 'Object Repository/Course Manager/button_Submit' is clicked on
+
+2020-08-04 13:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Submit' is clicked on
+
+2020-08-04 13:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/select_Training Center")): Object: 'Object Repository/Course Manager/select_Training Center' is clicked on
+
+2020-08-04 13:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/select_Training Center' is clicked on
+
+2020-08-04 13:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/Train_center_Value")): Object: 'Object Repository/Course Manager/Train_center_Value' is clicked on
+
+2020-08-04 13:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/Train_center_Value' is clicked on
+
+2020-08-04 13:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/select_Room")): Object: 'Object Repository/Course Manager/select_Room' is clicked on
+
+2020-08-04 13:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/select_Room' is clicked on
+
+2020-08-04 13:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/Room_Value")): Object: 'Object Repository/Course Manager/Room_Value' is clicked on
+
+2020-08-04 13:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/Room_Value' is clicked on
+
+2020-08-04 13:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_ Add Focus Area")): Object: 'Object Repository/Course Manager/a_ Add Focus Area' is clicked on
+
+2020-08-04 13:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_ Add Focus Area' is clicked on
+
+2020-08-04 13:30:37 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/option_Certification")): Object: 'Object Repository/Course Manager/option_Certification' is clicked on
+
+2020-08-04 13:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/option_Certification' is clicked on
+
+2020-08-04 13:30:37 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_Submit_FocusArea")): Object: 'Object Repository/Course Manager/button_Submit_FocusArea' is clicked on
+
+2020-08-04 13:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_Submit_FocusArea' is clicked on
+
+2020-08-04 13:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:40 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/select_TextBookProvided")): Object: 'Object Repository/Course Manager/select_TextBookProvided' is clicked on
+
+2020-08-04 13:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/select_TextBookProvided' is clicked on
+
+2020-08-04 13:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/option_Yes")): Object: 'Object Repository/Course Manager/option_Yes' is clicked on
+
+2020-08-04 13:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/option_Yes' is clicked on
+
+2020-08-04 13:30:42 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/input_SD_custFiled_30"), "1234512345"): Text '1234512345' is set on object 'Object Repository/Course Manager/input_SD_custFiled_30'
+
+2020-08-04 13:30:43 - [MESSAGE][PASSED] - Text '1234512345' is set on object 'Object Repository/Course Manager/input_SD_custFiled_30'
+
+2020-08-04 13:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Migrated Course_custFiled_31")): Object: 'Object Repository/Course Manager/input_Migrated Course_custFiled_31' is clicked on
+
+2020-08-04 13:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Migrated Course_custFiled_31' is clicked on
+
+2020-08-04 13:30:43 - [TEST_STEP][PASSED] - setText(findTestObject("Course Manager/textarea_Learning Outcomes_custFiled_29"), "This is a test from automation"): Text 'This is a test from automation' is set on object 'Object Repository/Course Manager/textarea_Learning Outcomes_custFiled_29'
+
+2020-08-04 13:30:44 - [MESSAGE][PASSED] - Text 'This is a test from automation' is set on object 'Object Repository/Course Manager/textarea_Learning Outcomes_custFiled_29'
+
+2020-08-04 13:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/a_Next")): Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/a_Next' is clicked on
+
+2020-08-04 13:30:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Course Manager/input_Seats Expire On_DTRsvSeat"), 0): Scroll to object 'Object Repository/Course Manager/input_Seats Expire On_DTRsvSeat' successfully
+
+2020-08-04 13:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 13:30:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Course Manager/input_Seats Expire On_DTRsvSeat' successfully
+
+2020-08-04 13:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/input_Seats Expire On_DTRsvSeat")): Object: 'Object Repository/Course Manager/input_Seats Expire On_DTRsvSeat' is clicked on
+
+2020-08-04 13:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/input_Seats Expire On_DTRsvSeat' is clicked on
+
+2020-08-04 13:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Course Manager/button_December_xdsoft_next (Limits)")): Object: 'Object Repository/Course Manager/button_December_xdsoft_next (Limits)' is clicked on
+
+2020-08-04 13:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Course Manager/button_December_xdsoft_next (Limits)' is clicked on
+
+2020-08-04 13:30:49 - [TEST_STEP][FAILED] - click(findTestObject("Course Manager/div_31 (Expiry Date)")): Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1595930162413.run(Script1595930162413.groovy:94)
+	... 13 more
+)
+
+2020-08-04 13:30:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1595930162413.run(Script1595930162413.groovy:94)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\1596519050525.png]]]]></system-out>
+         <system-err><![CDATA[2020-08-04 13:29:53 - [TEST_CASE][FAILED] - Test Cases/Course Manager/TC-009-CM-Creating Course without payment: Test Cases/Course Manager/TC-009-CM-Creating Course without payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message" time="47.206" classname="Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-010-CM-Creating Course without the ADA message.run(TC-010-CM-Creating Course without the ADA message:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-08-04 13:30:50 - [TEST_CASE][FAILED] - Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message: Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-010-CM-Creating Course without the ADA message.run(TC-010-CM-Creating Course without the ADA message:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-08-04 13:30:51 - [TEST_STEP][FAILED] - click(findTestObject("Course Manager/button_New")): Unable to click on object 'Object Repository/Course Manager/button_New' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-010-CM-Creating Course without the ADA message.run(TC-010-CM-Creating Course without the ADA message:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1596092644183.run(Script1596092644183.groovy:20)
+	... 13 more
+)
+
+2020-08-04 13:31:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-04 13:31:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Course Manager/button_New' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-010-CM-Creating Course without the ADA message.run(TC-010-CM-Creating Course without the ADA message:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1596092644183.run(Script1596092644183.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\1596519097769.png]]]]></system-out>
+         <system-err><![CDATA[2020-08-04 13:30:50 - [TEST_CASE][FAILED] - Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message: Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-010-CM-Creating Course without the ADA message.run(TC-010-CM-Creating Course without the ADA message:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course Manager/TC-011-CM-Creating Course with Payment" time="46.987" classname="Test Cases/Course Manager/TC-011-CM-Creating Course with Payment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Course Manager/TC-011-CM-Creating Course with Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-011-CM-Creating Course with Payment.run(TC-011-CM-Creating Course with Payment:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-08-04 13:31:38 - [TEST_CASE][FAILED] - Test Cases/Course Manager/TC-011-CM-Creating Course with Payment: Test Cases/Course Manager/TC-011-CM-Creating Course with Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-011-CM-Creating Course with Payment.run(TC-011-CM-Creating Course with Payment:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-08-04 13:31:38 - [TEST_STEP][FAILED] - click(findTestObject("Course Manager/button_New")): Unable to click on object 'Object Repository/Course Manager/button_New' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-011-CM-Creating Course with Payment.run(TC-011-CM-Creating Course with Payment:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1596096407809.run(Script1596096407809.groovy:19)
+	... 13 more
+)
+
+2020-08-04 13:32:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-04 13:32:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Course Manager/button_New' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-011-CM-Creating Course with Payment.run(TC-011-CM-Creating Course with Payment:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1596096407809.run(Script1596096407809.groovy:19)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Kim\\git\\ascriptica-automation\\Reports\\20200804_132628\\Course Manager\\20200804_132628\\1596519144754.png]]]]></system-out>
+         <system-err><![CDATA[2020-08-04 13:31:38 - [TEST_CASE][FAILED] - Test Cases/Course Manager/TC-011-CM-Creating Course with Payment: Test Cases/Course Manager/TC-011-CM-Creating Course with Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/button_New'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-011-CM-Creating Course with Payment.run(TC-011-CM-Creating Course with Payment:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course Manager/button_New' located by 'By.xpath: //div[@id='new-model']/div[2]/div/ul/li[6]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-04 13:26:31 - [TEST_SUITE][FAILED] - Course Manager: Test Cases/Course Manager/TC-009-CM-Creating Course without payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-08-04 13:26:31 - [TEST_SUITE][FAILED] - Course Manager: Test Cases/Course Manager/TC-009-CM-Creating Course without payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Course Manager/div_31 (Expiry Date)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC-009-CM-Creating Course without payment.run(TC-009-CM-Creating Course without payment:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596518788306.run(TempTestSuite1596518788306.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-604KTOQ', ip: '192.168.254.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 730e6ce4d72e3d77e7466e47dc984716
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

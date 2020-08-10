@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 84.0.4147.105,,,2020-08-10 14:04:07,2020-08-10 14:05:17,1m - 10.216s,FAILED
+,,,,,,,
+Test Cases/Login/TC00 - Login,Chrome 84.0.4147.105,,,2020-08-10 14:04:07,2020-08-10 14:04:30,23.302s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-08-10 14:04:08,2020-08-10 14:04:13,5.664s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-08-10 14:04:13,2020-08-10 14:04:15,2.194s,PASSED
+"navigateToUrl(""http://demos1.stral.in/PGCTechnologyServices/site/login"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:15,2020-08-10 14:04:20,4.747s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_User ID  Email Address_LoginFormusername""), ""jeffdy010203@gmail.com"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:20,2020-08-10 14:04:21,1.027s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password_LoginFormpassword""), ""mpwtaF1AOAT+pVLiPGdxib800znL7mVX"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:21,2020-08-10 14:04:22,0.682s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:22,2020-08-10 14:04:22,0.613s,PASSED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:22,2020-08-10 14:04:28,5.763s,PASSED
+"doubleClick(findTestObject(""Course Manager/div_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:28,2020-08-10 14:04:30,2.114s,PASSED
+,,,,,,,
+Test Cases/Course Manager/TC-009-CM-Creating Course without payment,Chrome 84.0.4147.105,,,2020-08-10 14:04:30,2020-08-10 14:05:17,46.383s,FAILED
+"click(findTestObject(""Course Manager/button_New""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:31,2020-08-10 14:04:35,4.251s,PASSED
+"setText(findTestObject(""Course Manager/input__txtTitle""), ""Comp-101"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:35,2020-08-10 14:04:36,1.158s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Course Manager/select_Choose                              _822a55""), ""2"", true)",Chrome 84.0.4147.105,,,2020-08-10 14:04:36,2020-08-10 14:04:38,1.438s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a""), ""175"", true)",Chrome 84.0.4147.105,,,2020-08-10 14:04:38,2020-08-10 14:04:40,1.811s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Course Manager/select_Choose                              _ed4c48""), ""11"", true)",Chrome 84.0.4147.105,,,2020-08-10 14:04:40,2020-08-10 14:04:41,1.528s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:41,2020-08-10 14:04:42,0.765s,PASSED
+delay(2),Chrome 84.0.4147.105,,,2020-08-10 14:04:42,2020-08-10 14:04:44,2.038s,PASSED
+"test.fileUpload.uploadFile(findTestObject(""Course Manager/input_BROWSE_test""), ""C:\Users\Kim\Downloads\depositphotos_180736330-stock-illustration-logo-quality-assurance-qa-testing.jpg"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:44,2020-08-10 14:04:45,0.814s,PASSED
+"setText(findTestObject(""Course Manager/textarea_Course Desciption""), ""This is a test description"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:45,2020-08-10 14:04:46,1.256s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:46,2020-08-10 14:04:47,0.970s,PASSED
+delay(2),Chrome 84.0.4147.105,,,2020-08-10 14:04:47,2020-08-10 14:04:49,2.004s,PASSED
+"click(findTestObject(""Course Manager/a_ Add Instructor""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:49,2020-08-10 14:04:50,0.687s,PASSED
+"setText(findTestObject(""Course Manager/input__txtInstructor""), ""Lauro E"")",Chrome 84.0.4147.105,,,2020-08-10 14:04:50,2020-08-10 14:04:51,0.995s,PASSED
+"click(findTestObject(""Course Manager/a_Lauro Eguia""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:51,2020-08-10 14:04:52,1.360s,PASSED
+delay(3),Chrome 84.0.4147.105,,,2020-08-10 14:04:52,2020-08-10 14:04:55,3.008s,PASSED
+"click(findTestObject(""Course Manager/button_Submit""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:55,2020-08-10 14:04:56,0.647s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:56,2020-08-10 14:04:57,1.684s,PASSED
+"click(findTestObject(""Course Manager/select_Training Center""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:57,2020-08-10 14:04:59,1.143s,PASSED
+"click(findTestObject(""Course Manager/Train_center_Value""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:59,2020-08-10 14:04:59,0.582s,PASSED
+"click(findTestObject(""Course Manager/select_Room""))",Chrome 84.0.4147.105,,,2020-08-10 14:04:59,2020-08-10 14:05:00,1.192s,PASSED
+"click(findTestObject(""Course Manager/Room_Value""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:00,2020-08-10 14:05:01,0.454s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:01,2020-08-10 14:05:02,0.956s,PASSED
+"click(findTestObject(""Course Manager/a_ Add Focus Area""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:02,2020-08-10 14:05:03,1.139s,PASSED
+"click(findTestObject(""Course Manager/option_Certification""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:03,2020-08-10 14:05:04,0.645s,PASSED
+"click(findTestObject(""Course Manager/button_Submit_FocusArea""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:04,2020-08-10 14:05:04,0.568s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:04,2020-08-10 14:05:06,1.872s,PASSED
+"click(findTestObject(""Course Manager/select_TextBookProvided""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:06,2020-08-10 14:05:07,1.054s,PASSED
+"click(findTestObject(""Course Manager/option_Yes""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:07,2020-08-10 14:05:07,0.464s,PASSED
+"setText(findTestObject(""Course Manager/input_SD_custFiled_30""), ""1234512345"")",Chrome 84.0.4147.105,,,2020-08-10 14:05:07,2020-08-10 14:05:08,0.994s,PASSED
+"click(findTestObject(""Course Manager/input_Migrated Course_custFiled_31""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:08,2020-08-10 14:05:09,0.610s,PASSED
+"setText(findTestObject(""Course Manager/textarea_Learning Outcomes_custFiled_29""), ""This is a test from automation"")",Chrome 84.0.4147.105,,,2020-08-10 14:05:09,2020-08-10 14:05:11,1.428s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:11,2020-08-10 14:05:11,0.847s,PASSED
+"click(findTestObject(""Course Manager/a_Next""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:11,2020-08-10 14:05:13,1.517s,PASSED
+"scrollToElement(findTestObject(""Course Manager/input_Seats Expire On_DTRsvSeat""), 0)",Chrome 84.0.4147.105,,,2020-08-10 14:05:13,2020-08-10 14:05:14,1.169s,PASSED
+"click(findTestObject(""Course Manager/input_Seats Expire On_DTRsvSeat""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:14,2020-08-10 14:05:15,0.824s,PASSED
+"click(findTestObject(""Course Manager/button_December_xdsoft_next (Limits)""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:15,2020-08-10 14:05:16,0.718s,PASSED
+"click(findTestObject(""Course Manager/div_31 (Expiry Date)""))",Chrome 84.0.4147.105,,,2020-08-10 14:05:16,2020-08-10 14:05:17,1.165s,FAILED

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 84.0.4147.105,,,2020-08-05 12:33:43,2020-08-05 12:34:10,26.600s,FAILED
+,,,,,,,
+Test Cases/Login/TC00 - Login,Chrome 84.0.4147.105,,,2020-08-05 12:33:44,2020-08-05 12:34:01,17.910s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-08-05 12:33:44,2020-08-05 12:33:49,5.104s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-08-05 12:33:49,2020-08-05 12:33:51,2.198s,PASSED
+"navigateToUrl(""http://demos1.stral.in/PGCTechnologyServices/site/login"")",Chrome 84.0.4147.105,,,2020-08-05 12:33:51,2020-08-05 12:33:59,7.935s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_User ID  Email Address_LoginFormusername""), ""jeffdy010203@gmail.com"")",Chrome 84.0.4147.105,,,2020-08-05 12:33:59,2020-08-05 12:34:00,0.938s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password_LoginFormpassword""), ""mpwtaF1AOAT+pVLiPGdxib800znL7mVX"")",Chrome 84.0.4147.105,,,2020-08-05 12:34:00,2020-08-05 12:34:01,0.651s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 84.0.4147.105,,,2020-08-05 12:34:01,2020-08-05 12:34:01,0.635s,PASSED
+,,,,,,,
+Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message,Chrome 84.0.4147.105,,,2020-08-05 12:34:02,2020-08-05 12:34:10,8.319s,FAILED
+acceptAlert(),Chrome 84.0.4147.105,,,2020-08-05 12:34:02,2020-08-05 12:34:10,7.532s,FAILED

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Course Manager,Chrome 84.0.4147.105,,,2020-08-10 13:32:42,2020-08-10 13:36:01,3m - 18.410s,FAILED
+,,,,,,,
+Test Cases/Login/TC00 - Login,Chrome 84.0.4147.105,,,2020-08-10 13:32:43,2020-08-10 13:33:01,18.770s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-08-10 13:32:43,2020-08-10 13:32:49,5.484s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-08-10 13:32:49,2020-08-10 13:32:51,2.171s,PASSED
+"navigateToUrl(""http://demos1.stral.in/PGCTechnologyServices/site/login"")",Chrome 84.0.4147.105,,,2020-08-10 13:32:51,2020-08-10 13:32:59,7.774s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_User ID  Email Address_LoginFormusername""), ""jeffdy010203@gmail.com"")",Chrome 84.0.4147.105,,,2020-08-10 13:32:59,2020-08-10 13:33:00,1.187s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password_LoginFormpassword""), ""mpwtaF1AOAT+pVLiPGdxib800znL7mVX"")",Chrome 84.0.4147.105,,,2020-08-10 13:33:00,2020-08-10 13:33:01,0.750s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:01,2020-08-10 13:33:01,0.837s,PASSED
+,,,,,,,
+Test Cases/Course Manager/TC-006-CM-Duplicate button,Chrome 84.0.4147.105,,,2020-08-10 13:33:01,2020-08-10 13:33:28,26.385s,FAILED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:02,2020-08-10 13:33:10,8.051s,PASSED
+"doubleClick(findTestObject(""Course Manager/div_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:10,2020-08-10 13:33:12,2.167s,PASSED
+"scrollToElement(findTestObject(""Course Manager/input_Duplicate_classes (EXACT)""), 0)",Chrome 84.0.4147.105,,,2020-08-10 13:33:12,2020-08-10 13:33:13,0.519s,PASSED
+"click(findTestObject(""Course Manager/input_Duplicate_classes (EXACT)""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:13,2020-08-10 13:33:13,0.594s,PASSED
+"click(findTestObject(""Object Repository/Course Manager/button_Duplicate""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:13,2020-08-10 13:33:19,5.766s,PASSED
+"selectOptionByValue(findTestObject(""Course Manager/select_Choose                              _822a55""), ""2"", true)",Chrome 84.0.4147.105,,,2020-08-10 13:33:19,2020-08-10 13:33:22,3.103s,PASSED
+"selectOptionByValue(findTestObject(""Course Manager/select_ChooseBlended Learning (OnlineFace-t_17004a""), ""175"", true)",Chrome 84.0.4147.105,,,2020-08-10 13:33:22,2020-08-10 13:33:24,1.765s,PASSED
+"click(findTestObject(""Course Manager/a_Deadlines""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:24,2020-08-10 13:33:25,0.937s,PASSED
+"click(findTestObject(""Course Manager/input_Evaluation Completion""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:25,2020-08-10 13:33:27,1.719s,PASSED
+"click(findTestObject(""Course Manager/div_31 (August)""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:27,2020-08-10 13:33:28,1.214s,FAILED
+,,,,,,,
+Test Cases/Course Manager/TC-007-CM-Details Button,Chrome 84.0.4147.105,,,2020-08-10 13:33:28,2020-08-10 13:33:29,1.279s,FAILED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:28,2020-08-10 13:33:29,0.791s,FAILED
+,,,,,,,
+Test Cases/Course Manager/TC-008-CM-Re Opening Ended course,Chrome 84.0.4147.105,,,2020-08-10 13:33:29,2020-08-10 13:33:31,1.684s,FAILED
+"scrollToElement(findTestObject(""Course Manager/button_DETAILS""), 0)",Chrome 84.0.4147.105,,,2020-08-10 13:33:29,2020-08-10 13:33:30,0.470s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:30,2020-08-10 13:33:31,0.857s,FAILED
+,,,,,,,
+Test Cases/Course Manager/TC-009-CM-Creating Course without payment,Chrome 84.0.4147.105,,,2020-08-10 13:33:31,2020-08-10 13:34:21,49.814s,FAILED
+"click(findTestObject(""Course Manager/button_New""))",Chrome 84.0.4147.105,,,2020-08-10 13:33:31,2020-08-10 13:34:21,49.420s,FAILED
+,,,,,,,
+Test Cases/Course Manager/TC-010-CM-Creating Course without the ADA message,Chrome 84.0.4147.105,,,2020-08-10 13:34:21,2020-08-10 13:35:11,49.969s,FAILED
+"click(findTestObject(""Course Manager/button_New""))",Chrome 84.0.4147.105,,,2020-08-10 13:34:21,2020-08-10 13:35:11,49.457s,FAILED
+,,,,,,,
+Test Cases/Course Manager/TC-011-CM-Creating Course with Payment,Chrome 84.0.4147.105,,,2020-08-10 13:35:11,2020-08-10 13:36:01,50.061s,FAILED
+"click(findTestObject(""Course Manager/button_New""))",Chrome 84.0.4147.105,,,2020-08-10 13:35:11,2020-08-10 13:36:01,49.753s,FAILED

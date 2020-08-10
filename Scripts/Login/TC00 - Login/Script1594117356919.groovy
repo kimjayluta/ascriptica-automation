@@ -29,3 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Password_Lo
 
 WebUI.click(findTestObject('Object Repository/Login/button_Login'))
 
+WebUI.click(findTestObject('Course Manager/a_Tools'))
+
+WebUI.doubleClick(findTestObject('Course Manager/div_Course Manager'))
+

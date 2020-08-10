@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 84.0.4147.105,,,2020-08-10 18:33:07,2020-08-10 18:34:07,59.797s,PASSED
+,,,,,,,
+Test Cases/Login/TC00 - Login,Chrome 84.0.4147.105,,,2020-08-10 18:33:08,2020-08-10 18:33:28,20.661s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-08-10 18:33:08,2020-08-10 18:33:13,5.024s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-08-10 18:33:13,2020-08-10 18:33:15,2.060s,PASSED
+"navigateToUrl(""http://demos1.stral.in/PGCTechnologyServices/site/login"")",Chrome 84.0.4147.105,,,2020-08-10 18:33:15,2020-08-10 18:33:19,3.388s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_User ID  Email Address_LoginFormusername""), ""jeffdy010203@gmail.com"")",Chrome 84.0.4147.105,,,2020-08-10 18:33:19,2020-08-10 18:33:19,0.900s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password_LoginFormpassword""), ""mpwtaF1AOAT+pVLiPGdxib800znL7mVX"")",Chrome 84.0.4147.105,,,2020-08-10 18:33:19,2020-08-10 18:33:20,0.656s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:20,2020-08-10 18:33:21,0.628s,PASSED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:21,2020-08-10 18:33:26,5.495s,PASSED
+"doubleClick(findTestObject(""Course Manager/div_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:26,2020-08-10 18:33:28,2.104s,PASSED
+,,,,,,,
+Test Cases/Course Manager/TC-008-CM-Re Opening Ended course,Chrome 84.0.4147.105,,,2020-08-10 18:33:28,2020-08-10 18:34:07,38.761s,PASSED
+"scrollToElement(findTestObject(""Course Manager/button_DETAILS""), 0)",Chrome 84.0.4147.105,,,2020-08-10 18:33:29,2020-08-10 18:33:29,0.339s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:29,2020-08-10 18:33:29,0.423s,PASSED
+"click(findTestObject(""Course Manager/a_MODIFY""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:29,2020-08-10 18:33:33,3.690s,PASSED
+"click(findTestObject(""Course Manager/a_Schedule""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:33,2020-08-10 18:33:35,2.279s,PASSED
+"click(findTestObject(""Course Manager/input__generate_start_date""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:35,2020-08-10 18:33:37,1.357s,PASSED
+"click(findTestObject(""Course Manager/div_29""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:37,2020-08-10 18:33:38,0.754s,PASSED
+"click(findTestObject(""Course Manager/input__generate_end_date""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:38,2020-08-10 18:33:38,0.644s,PASSED
+"click(findTestObject(""Course Manager/div_1""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:38,2020-08-10 18:33:39,0.661s,PASSED
+"click(findTestObject(""Course Manager/button_Schedule""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:39,2020-08-10 18:33:39,0.650s,PASSED
+"verifyElementVisible(findTestObject(""Course Manager/p_Updating course  Georgia TAPP Program 202_e049af""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:39,2020-08-10 18:33:41,1.673s,PASSED
+"click(findTestObject(""Course Manager/a_Deadlines""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:41,2020-08-10 18:33:42,0.744s,PASSED
+"if (findTestObject(""Course Manager/label_Follow-up Completion date cannot be e_fd7ed2""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:42,2020-08-10 18:33:43,0.849s,PASSED
+"click(findTestObject(""Course Manager/button_Completion Date""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:43,2020-08-10 18:33:43,0.764s,PASSED
+"click(findTestObject(""Course Manager/div_2""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:43,2020-08-10 18:33:44,0.647s,PASSED
+"click(findTestObject(""Course Manager/a_Follow-up Questions""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:44,2020-08-10 18:33:45,0.879s,PASSED
+"click(findTestObject(""Course Manager/a_Finish""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:45,2020-08-10 18:33:47,1.519s,PASSED
+"verifyElementVisible(findTestObject(""Course Manager/ul_Course updated successfully""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:47,2020-08-10 18:33:51,4.914s,PASSED
+"click(findTestObject(""Course Manager/a_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:51,2020-08-10 18:33:54,2.117s,PASSED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:54,2020-08-10 18:33:55,1.646s,PASSED
+"click(findTestObject(""Course Manager/div_Course Enrollments""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:55,2020-08-10 18:33:58,2.968s,PASSED
+"click(findTestObject(""Course Manager/a_Open Roster""))",Chrome 84.0.4147.105,,,2020-08-10 18:33:58,2020-08-10 18:34:01,2.638s,PASSED
+"verifyElementVisible(findTestObject(""Course Manager/li_Roster""))",Chrome 84.0.4147.105,,,2020-08-10 18:34:01,2020-08-10 18:34:01,0.374s,PASSED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 18:34:01,2020-08-10 18:34:04,3.176s,PASSED
+"click(findTestObject(""Course Manager/div_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 18:34:04,2020-08-10 18:34:06,2.031s,PASSED
+"scrollToElement(findTestObject(""Course Manager/p_Open""), 0)",Chrome 84.0.4147.105,,,2020-08-10 18:34:06,2020-08-10 18:34:07,0.381s,PASSED
+"verifyElementVisible(findTestObject(""Course Manager/p_Open""), STOP_ON_FAILURE)",Chrome 84.0.4147.105,,,2020-08-10 18:34:07,2020-08-10 18:34:07,0.311s,PASSED

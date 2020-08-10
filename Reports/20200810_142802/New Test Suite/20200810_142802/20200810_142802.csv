@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 84.0.4147.105,,,2020-08-10 14:28:05,2020-08-10 14:29:27,1m - 22.273s,PASSED
+,,,,,,,
+Test Cases/Login/TC00 - Login,Chrome 84.0.4147.105,,,2020-08-10 14:28:05,2020-08-10 14:28:26,20.931s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-08-10 14:28:06,2020-08-10 14:28:11,5.016s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-08-10 14:28:11,2020-08-10 14:28:13,2.187s,PASSED
+"navigateToUrl(""http://demos1.stral.in/PGCTechnologyServices/site/login"")",Chrome 84.0.4147.105,,,2020-08-10 14:28:13,2020-08-10 14:28:16,3.362s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_User ID  Email Address_LoginFormusername""), ""jeffdy010203@gmail.com"")",Chrome 84.0.4147.105,,,2020-08-10 14:28:16,2020-08-10 14:28:17,0.929s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password_LoginFormpassword""), ""mpwtaF1AOAT+pVLiPGdxib800znL7mVX"")",Chrome 84.0.4147.105,,,2020-08-10 14:28:17,2020-08-10 14:28:18,0.657s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:18,2020-08-10 14:28:19,0.679s,PASSED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:19,2020-08-10 14:28:24,5.577s,PASSED
+"doubleClick(findTestObject(""Course Manager/div_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:24,2020-08-10 14:28:26,2.058s,PASSED
+,,,,,,,
+Test Cases/Course Manager/TC-007-CM-Details Button,Chrome 84.0.4147.105,,,2020-08-10 14:28:26,2020-08-10 14:29:27,1m - 0.962s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:27,2020-08-10 14:28:27,0.423s,PASSED
+"click(findTestObject(""Course Manager/a_MODIFY""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:27,2020-08-10 14:28:32,5.014s,PASSED
+"click(findTestObject(""Course Manager/a_Deadlines""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:32,2020-08-10 14:28:34,2.169s,PASSED
+"click(findTestObject(""Course Manager/input_Evaluation Completion""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:34,2020-08-10 14:28:36,1.341s,PASSED
+"click(findTestObject(""Course Manager/div_31 (August)""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:36,2020-08-10 14:28:36,0.715s,PASSED
+"click(findTestObject(""Course Manager/a_Follow-up Questions""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:36,2020-08-10 14:28:37,0.892s,PASSED
+"click(findTestObject(""Course Manager/a_Finish""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:37,2020-08-10 14:28:39,1.490s,PASSED
+"click(findTestObject(""Course Manager/a_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:39,2020-08-10 14:28:47,7.754s,PASSED
+"scrollToElement(findTestObject(""Course Manager/button_DETAILS""), 0)",Chrome 84.0.4147.105,,,2020-08-10 14:28:47,2020-08-10 14:28:47,0.326s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:47,2020-08-10 14:28:47,0.424s,PASSED
+"click(findTestObject(""Course Manager/a_DENY""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:47,2020-08-10 14:28:48,0.426s,PASSED
+acceptAlert(),Chrome 84.0.4147.105,,,2020-08-10 14:28:48,2020-08-10 14:28:48,0.041s,PASSED
+"setText(findTestObject(""Course Manager/textarea_Reason For Decline_reason""), ""This is a Test"")",Chrome 84.0.4147.105,,,2020-08-10 14:28:48,2020-08-10 14:28:49,0.908s,PASSED
+"click(findTestObject(""Course Manager/button_Submit (Deny)""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:49,2020-08-10 14:28:49,0.431s,PASSED
+"scrollToElement(findTestObject(""Course Manager/p_Declined""), 0)",Chrome 84.0.4147.105,,,2020-08-10 14:28:49,2020-08-10 14:28:50,0.905s,PASSED
+"verifyElementVisible(findTestObject(""Course Manager/p_Declined""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:50,2020-08-10 14:28:51,1.418s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:51,2020-08-10 14:28:52,0.452s,PASSED
+"click(findTestObject(""Course Manager/a_APPROVE""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:52,2020-08-10 14:28:52,0.421s,PASSED
+acceptAlert(),Chrome 84.0.4147.105,,,2020-08-10 14:28:52,2020-08-10 14:28:52,0.022s,PASSED
+"scrollToElement(findTestObject(""Course Manager/a_Tools""), 0)",Chrome 84.0.4147.105,,,2020-08-10 14:28:52,2020-08-10 14:28:53,0.854s,PASSED
+"click(findTestObject(""Course Manager/a_Tools""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:53,2020-08-10 14:28:56,3.240s,PASSED
+"click(findTestObject(""Course Manager/div_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:56,2020-08-10 14:28:58,1.948s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:58,2020-08-10 14:28:59,0.413s,PASSED
+"click(findTestObject(""Course Manager/a_DUPLICATE""))",Chrome 84.0.4147.105,,,2020-08-10 14:28:59,2020-08-10 14:29:04,5.112s,PASSED
+"selectOptionByValue(findTestObject(""Course Manager/select_Choose                              _822a55""), ""2"", true)",Chrome 84.0.4147.105,,,2020-08-10 14:29:04,2020-08-10 14:29:07,2.860s,PASSED
+"click(findTestObject(""Course Manager/a_Follow-up Questions""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:07,2020-08-10 14:29:08,1.221s,PASSED
+"click(findTestObject(""Course Manager/a_Finish""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:08,2020-08-10 14:29:09,1.388s,PASSED
+"click(findTestObject(""Course Manager/a_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:09,2020-08-10 14:29:17,7.216s,PASSED
+"scrollToElement(findTestObject(""Course Manager/button_DETAILS""), 0)",Chrome 84.0.4147.105,,,2020-08-10 14:29:17,2020-08-10 14:29:17,0.331s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:17,2020-08-10 14:29:17,0.360s,PASSED
+"click(findTestObject(""Course Manager/a_ENROLLMENT""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:17,2020-08-10 14:29:20,2.852s,PASSED
+"click(findTestObject(""Course Manager/a_Course Manager""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:20,2020-08-10 14:29:22,1.773s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:22,2020-08-10 14:29:22,0.424s,PASSED
+"click(findTestObject(""Course Manager/a_CANCEL""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:22,2020-08-10 14:29:23,0.410s,PASSED
+acceptAlert(),Chrome 84.0.4147.105,,,2020-08-10 14:29:23,2020-08-10 14:29:23,0.018s,PASSED
+"setText(findTestObject(""Course Manager/textarea_Reason For Cancel_reason_cancel""), ""This is a test"")",Chrome 84.0.4147.105,,,2020-08-10 14:29:23,2020-08-10 14:29:24,1.433s,PASSED
+"click(findTestObject(""Course Manager/button_Submit_Cancel""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:24,2020-08-10 14:29:25,0.421s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Course Manager/p_Cancelled""), 0)",Chrome 84.0.4147.105,,,2020-08-10 14:29:25,2020-08-10 14:29:25,0.571s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Course Manager/p_Cancelled""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:25,2020-08-10 14:29:27,1.397s,PASSED
+"click(findTestObject(""Course Manager/button_DETAILS""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:27,2020-08-10 14:29:27,0.356s,PASSED
+"click(findTestObject(""Course Manager/a_DELETE""))",Chrome 84.0.4147.105,,,2020-08-10 14:29:27,2020-08-10 14:29:27,0.379s,PASSED
+acceptAlert(),Chrome 84.0.4147.105,,,2020-08-10 14:29:27,2020-08-10 14:29:27,0.018s,PASSED

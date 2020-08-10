@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 84.0.4147.105,,,2020-08-10 13:42:07,2020-08-10 13:43:08,1m - 1.515s,FAILED
+,,,,,,,
+Test Cases/Login/TC00 - Login,Chrome 84.0.4147.105,,,2020-08-10 13:42:07,2020-08-10 13:42:22,14.413s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-08-10 13:42:08,2020-08-10 13:42:13,5.723s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-08-10 13:42:13,2020-08-10 13:42:16,2.184s,PASSED
+"navigateToUrl(""http://demos1.stral.in/PGCTechnologyServices/site/login"")",Chrome 84.0.4147.105,,,2020-08-10 13:42:16,2020-08-10 13:42:19,3.458s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_User ID  Email Address_LoginFormusername""), ""jeffdy010203@gmail.com"")",Chrome 84.0.4147.105,,,2020-08-10 13:42:19,2020-08-10 13:42:20,1.064s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password_LoginFormpassword""), ""mpwtaF1AOAT+pVLiPGdxib800znL7mVX"")",Chrome 84.0.4147.105,,,2020-08-10 13:42:20,2020-08-10 13:42:21,0.769s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 84.0.4147.105,,,2020-08-10 13:42:21,2020-08-10 13:42:22,0.725s,PASSED
+,,,,,,,
+Test Cases/Course Manager/TC-011-CM-Creating Course with Payment,Chrome 84.0.4147.105,,,2020-08-10 13:42:22,2020-08-10 13:43:08,46.665s,FAILED
+"click(findTestObject(""Course Manager/button_New""))",Chrome 84.0.4147.105,,,2020-08-10 13:42:23,2020-08-10 13:43:08,45.643s,FAILED
